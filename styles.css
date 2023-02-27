@@ -368,6 +368,7 @@ nav #lightMode:hover {
     border-radius: 8px;
     margin-top: 10px;
     margin-right: 2px;
+    width: 140px;
 }
 
 #applyPromo {
@@ -417,7 +418,7 @@ nav #lightMode:hover {
 }
 
 #cartList li {
-    padding: 3px 0;
+    margin-top: 3px;
     font-style: italic;
 }
 
@@ -436,7 +437,7 @@ nav #lightMode:hover {
     color: #ffffff;
     font-weight: 600;
     font-size: 16px;
-    margin: 0 0 20px 0;
+    margin: 3px 0 20px 0;
     background-color: var(--orange);
     padding: 5px;
     border-radius: 5px;
@@ -506,7 +507,6 @@ nav #lightMode:hover {
     height: 35px;
     width: 50px;
     border-radius: 5px;
-    /* border: none; */
     grid-row: 2 / 3;
     justify-self: center;
     margin-right: 110px;
@@ -676,6 +676,11 @@ nav #lightMode:hover {
     filter: drop-shadow(0px 4px 4px black);
 }
 
+#contact input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #6C756B;
+}
+
 #contact select {
     height: 45px;
 }
@@ -735,6 +740,11 @@ label span, legend span{
     color: #FFF !important;
 }
 
+.darkModeFeatured ul li:hover {
+    border-bottom: #ffffff solid 2px!important;
+    cursor: pointer;
+}
+
 /* contact and shop */
 .darkModeContact {
     background-color: var(--darkMetal) !important;
@@ -756,8 +766,3 @@ label span, legend span{
     background-color: var(--gray)!important;
     color: #fff!important;
 }
-
-/* darkModeCartList */
-/* .darkModeCartList {
-    color: #ff6a00!important;
-} */
