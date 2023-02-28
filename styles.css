@@ -333,12 +333,6 @@ nav #lightMode:hover {
     font-size: 30px;
 }
 
-#cart p {
-    font-size: 18px;
-    font-style: italic;
-    margin-top: 5px;
-}
-
 #cart ul {
     margin: 15px 0;
     border-top: #292F36 2px solid;

@@ -1,1 +1,573 @@
-'use strict';const _0x165a16=_0x2f57;(function(_0x213611,_0x49a067){const _0x560d16=_0x2f57,_0x17e676=_0x213611();while(!![]){try{const _0x11e633=parseInt(_0x560d16(0x168))/0x1*(parseInt(_0x560d16(0x196))/0x2)+-parseInt(_0x560d16(0x1c8))/0x3*(-parseInt(_0x560d16(0x1c5))/0x4)+parseInt(_0x560d16(0x16b))/0x5+-parseInt(_0x560d16(0x1c0))/0x6*(parseInt(_0x560d16(0x1d0))/0x7)+parseInt(_0x560d16(0x15d))/0x8+-parseInt(_0x560d16(0x164))/0x9*(parseInt(_0x560d16(0x17d))/0xa)+-parseInt(_0x560d16(0x182))/0xb*(parseInt(_0x560d16(0x15f))/0xc);if(_0x11e633===_0x49a067)break;else _0x17e676['push'](_0x17e676['shift']());}catch(_0x23d1a0){_0x17e676['push'](_0x17e676['shift']());}}}(_0x2eca,0x675b7));let customerCart={'items':[],'subtotal':0x0},customer={};function changePhoto(_0x355588){const _0x2aa538=_0x2f57;let _0x2db0ac=document[_0x2aa538(0x15e)](_0x2aa538(0x176)),_0xd6c401=document['querySelector'](_0x2aa538(0x1a6)),_0x293f30=_0x355588[_0x2aa538(0x1a9)]['id'];if(_0x293f30==='ghost')_0xd6c401[_0x2aa538(0x1ad)]=_0x2aa538(0x163),_0x2db0ac[_0x2aa538(0x174)]=_0x2aa538(0x171),_0x2db0ac['alt']='Purple\x20and\x20white\x20ghost\x20earrings\x20that\x20say\x20\x27boo!\x27';else{if(_0x293f30===_0x2aa538(0x18a))_0xd6c401['innerHTML']=_0x2aa538(0x194),_0x2db0ac[_0x2aa538(0x174)]=_0x2aa538(0x1bf),_0x2db0ac[_0x2aa538(0x17c)]=_0x2aa538(0x1b6);else _0x293f30===_0x2aa538(0x1a8)?(_0xd6c401[_0x2aa538(0x1ad)]=_0x2aa538(0x1cd),_0x2db0ac[_0x2aa538(0x174)]=_0x2aa538(0x162),_0x2db0ac[_0x2aa538(0x17c)]=_0x2aa538(0x186)):(_0xd6c401[_0x2aa538(0x1ad)]=_0x2aa538(0x18c),_0x2db0ac[_0x2aa538(0x174)]='img/purpleCross.png',_0x2db0ac['alt']=_0x2aa538(0x170));}}function guessNumber(_0x14372a){const _0x4549ca=_0x2f57;_0x14372a[_0x4549ca(0x1cb)]();let _0x5df7ad=Math[_0x4549ca(0x1d1)](Math[_0x4549ca(0x1ae)]()*0xa+0x1),_0xd1d52c=document[_0x4549ca(0x15e)]('#game\x20#numGuess'),_0x41fe14=document[_0x4549ca(0x15e)](_0x4549ca(0x18f)),_0x1d6f35=document[_0x4549ca(0x15e)](_0x4549ca(0x17e)),_0x313187=document[_0x4549ca(0x15e)](_0x4549ca(0x1b5)),_0x357e54=document['querySelector']('.randomNum'),_0x227ebb=document['querySelector'](_0x4549ca(0x166)),_0x4c6127=document['querySelector'](_0x4549ca(0x1b8)),_0x5944b4=document[_0x4549ca(0x15e)]('#submitGuess');_0xd1d52c[_0x4549ca(0x173)]<=0xa&&_0xd1d52c[_0x4549ca(0x173)]>=0x1?Number(_0xd1d52c[_0x4549ca(0x173)])===_0x5df7ad?(_0xd1d52c[_0x4549ca(0x187)]['remove'](_0x4549ca(0x1c2)),_0x4c6127['innerHTML']='Enter\x20this\x20code\x20for\x2010%\x20off!',_0x1d6f35[_0x4549ca(0x1ad)]=_0x4549ca(0x193),_0x227ebb['innerHTML']=_0x4549ca(0x167),_0x41fe14[_0x4549ca(0x187)][_0x4549ca(0x197)](_0x4549ca(0x15b))):(_0xd1d52c[_0x4549ca(0x187)]['remove'](_0x4549ca(0x1c2)),_0x313187[_0x4549ca(0x1ad)]=_0xd1d52c[_0x4549ca(0x173)],_0x357e54[_0x4549ca(0x1ad)]=_0x5df7ad,_0x41fe14[_0x4549ca(0x187)][_0x4549ca(0x197)]('hiddenResponse')):(_0xd1d52c[_0x4549ca(0x187)][_0x4549ca(0x19d)](_0x4549ca(0x1c2)),alert(_0x4549ca(0x1be)));}function addToCart(_0x34fb3a){const _0x2bbc26=_0x2f57;let _0x2836a0=_0x34fb3a[_0x2bbc26(0x1a9)]['id'],_0x243e8f=document[_0x2bbc26(0x15e)](_0x2bbc26(0x189)),_0x5dda4c=document['createElement']('li'),_0x23250c=document[_0x2bbc26(0x169)]('li');if(_0x2836a0===_0x2bbc26(0x1d2))customerCart[_0x2bbc26(0x15a)][_0x2bbc26(0x180)]([_0x2836a0,0x1e]),_0x5dda4c[_0x2bbc26(0x187)][_0x2bbc26(0x19d)](_0x2836a0),_0x243e8f['appendChild'](_0x5dda4c),_0x243e8f[_0x2bbc26(0x1af)](_0x23250c),_0x23250c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x1bd),customerCart['subtotal']+=0x1e,_0x5dda4c[_0x2bbc26(0x1ad)]='Blue\x20Beaded\x20Earrings<span>$30</span>',_0x5dda4c[_0x2bbc26(0x187)]['add'](_0x2bbc26(0x1d2));else{if(_0x2836a0===_0x2bbc26(0x1c7))customerCart[_0x2bbc26(0x15a)][_0x2bbc26(0x180)]([_0x2836a0,0x19]),_0x5dda4c[_0x2bbc26(0x187)][_0x2bbc26(0x19d)](_0x2836a0),_0x243e8f[_0x2bbc26(0x1af)](_0x5dda4c),_0x243e8f[_0x2bbc26(0x1af)](_0x23250c),_0x23250c['innerHTML']=_0x2bbc26(0x1bd),customerCart[_0x2bbc26(0x1b7)]+=0x19,_0x5dda4c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x178);else{if(_0x2836a0==='webbedHoops')customerCart['items']['push']([_0x2836a0,0x23]),_0x5dda4c[_0x2bbc26(0x187)][_0x2bbc26(0x19d)](_0x2836a0),_0x243e8f[_0x2bbc26(0x1af)](_0x5dda4c),_0x243e8f[_0x2bbc26(0x1af)](_0x23250c),_0x23250c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x1bd),customerCart[_0x2bbc26(0x1b7)]+=0x23,_0x5dda4c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x179);else{if(_0x2836a0===_0x2bbc26(0x199))customerCart[_0x2bbc26(0x15a)][_0x2bbc26(0x180)]([_0x2836a0,0x19]),_0x5dda4c[_0x2bbc26(0x187)]['add'](_0x2836a0),_0x243e8f[_0x2bbc26(0x1af)](_0x5dda4c),_0x243e8f['appendChild'](_0x23250c),_0x23250c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x1bd),customerCart[_0x2bbc26(0x1b7)]+=0x19,_0x5dda4c[_0x2bbc26(0x1ad)]='Green\x20Cross<span>$25</span>';else{if(_0x2836a0===_0x2bbc26(0x1cf))customerCart[_0x2bbc26(0x15a)][_0x2bbc26(0x180)]([_0x2836a0,0x23]),_0x5dda4c[_0x2bbc26(0x187)][_0x2bbc26(0x19d)](_0x2836a0),_0x243e8f[_0x2bbc26(0x1af)](_0x5dda4c),_0x243e8f['appendChild'](_0x23250c),_0x23250c['innerHTML']='<a\x20id=\x27remove\x27>Remove\x20item</a>',customerCart[_0x2bbc26(0x1b7)]+=0x23,_0x5dda4c['innerHTML']='Turquoise\x20Hoops<span>$35</span>';else{if(_0x2836a0===_0x2bbc26(0x172))customerCart[_0x2bbc26(0x15a)][_0x2bbc26(0x180)]([_0x2836a0,0x19]),_0x5dda4c[_0x2bbc26(0x187)][_0x2bbc26(0x19d)](_0x2836a0),_0x243e8f['appendChild'](_0x5dda4c),_0x243e8f[_0x2bbc26(0x1af)](_0x23250c),_0x23250c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x1bd),customerCart['subtotal']+=0x19,_0x5dda4c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x1c4);else _0x2836a0===_0x2bbc26(0x18e)?(customerCart[_0x2bbc26(0x15a)][_0x2bbc26(0x180)]([_0x2836a0,0x1e]),_0x5dda4c[_0x2bbc26(0x187)]['add'](_0x2836a0),_0x243e8f[_0x2bbc26(0x1af)](_0x5dda4c),_0x243e8f[_0x2bbc26(0x1af)](_0x23250c),_0x23250c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x1bd),customerCart['subtotal']+=0x1e,_0x5dda4c[_0x2bbc26(0x1ad)]=_0x2bbc26(0x18d)):(customerCart[_0x2bbc26(0x15a)]['push']([_0x2836a0,0x14]),_0x5dda4c[_0x2bbc26(0x187)]['add'](_0x2836a0),_0x243e8f[_0x2bbc26(0x1af)](_0x5dda4c),_0x243e8f[_0x2bbc26(0x1af)](_0x23250c),_0x23250c['innerHTML']='<a\x20id=\x27remove\x27>Remove\x20item</a>',customerCart[_0x2bbc26(0x1b7)]+=0x14,_0x5dda4c['innerHTML']='Beaded\x20Hoops<span>$20</span>');}}}}}getTotal(customerCart[_0x2bbc26(0x1b7)]);let _0x4c3c67=document[_0x2bbc26(0x1b1)](_0x2bbc26(0x160));_0x4c3c67[_0x2bbc26(0x17b)](function(_0x5d3a49){const _0xc6ffaa=_0x2bbc26;_0x5d3a49['addEventListener'](_0xc6ffaa(0x18b),removeItem);});}function getTotal(_0x50be31){const _0x2b0181=_0x2f57;let _0x594dd4=document[_0x2b0181(0x15e)](_0x2b0181(0x190));parseInt(_0x50be31),_0x594dd4[_0x2b0181(0x1d3)]='$'+_0x50be31;let _0x404890=document[_0x2b0181(0x15e)](_0x2b0181(0x1a4)),_0x3e3bf9='$'+(_0x50be31+_0x50be31*0.08+0x5)[_0x2b0181(0x184)](0x2),_0x5b8f2b=customerCart['subtotal'];_0x5b8f2b===0x0?_0x404890[_0x2b0181(0x1d3)]='$'+(_0x50be31+_0x50be31*0.08)['toFixed'](0x2):_0x404890[_0x2b0181(0x1d3)]=_0x3e3bf9,customerCart[_0x2b0181(0x1c3)]=_0x3e3bf9;}function removeItem(_0x1ae27b){const _0x125a2d=_0x2f57;let _0x23e268=_0x1ae27b[_0x125a2d(0x1a9)][_0x125a2d(0x1b2)][_0x125a2d(0x158)],_0xc3b5e7=_0x1ae27b[_0x125a2d(0x1a9)],_0x5d3a4c=_0x23e268[_0x125a2d(0x187)]['value'];_0xc3b5e7[_0x125a2d(0x1b2)][_0x125a2d(0x1ca)](_0xc3b5e7),_0x23e268[_0x125a2d(0x1b2)][_0x125a2d(0x1ca)](_0x23e268);if(_0x5d3a4c==='blueBeaded')customerCart[_0x125a2d(0x1b7)]-=0x1e;else{if(_0x5d3a4c==='bluePorcupine')customerCart[_0x125a2d(0x1b7)]-=0x19;else{if(_0x5d3a4c===_0x125a2d(0x183))customerCart[_0x125a2d(0x1b7)]-=0x23;else{if(_0x5d3a4c===_0x125a2d(0x199))customerCart[_0x125a2d(0x1b7)]-=0x19;else{if(_0x5d3a4c===_0x125a2d(0x172))customerCart[_0x125a2d(0x1b7)]-=0x19;else{if(_0x5d3a4c===_0x125a2d(0x18e))customerCart[_0x125a2d(0x1b7)]-=0x1e;else _0x5d3a4c===_0x125a2d(0x1cf)?customerCart[_0x125a2d(0x1b7)]-=0x23:customerCart[_0x125a2d(0x1b7)]-=0x14;}}}}}getTotal(customerCart[_0x125a2d(0x1b7)]);}function applyPromo(_0x111124){const _0x28dd40=_0x2f57;_0x111124[_0x28dd40(0x1cb)]();let _0x59de82=document[_0x28dd40(0x155)](_0x28dd40(0x188))[_0x28dd40(0x173)][_0x28dd40(0x161)]();(_0x59de82==='10OFFWIN'||_0x59de82==='10offwin')&&getTotal(customerCart[_0x28dd40(0x1b7)]*0.9);}function checkout(_0x7e7879){const _0x4b72ed=_0x2f57;_0x7e7879[_0x4b72ed(0x1cb)]();let _0x37923e=customerCart[_0x4b72ed(0x1c3)],_0x2ab7d6=document[_0x4b72ed(0x1b1)](_0x4b72ed(0x1a7));if(customerCart['subtotal']===0x0)alert(_0x4b72ed(0x17a));else{for(let _0x54adfb of _0x2ab7d6){_0x54adfb[_0x4b72ed(0x1b2)][_0x4b72ed(0x1ca)](_0x54adfb);}customerCart['subtotal']=0x0,getTotal(customerCart[_0x4b72ed(0x1b7)]),alert(_0x4b72ed(0x1a3)+_0x37923e);}}let isValid=!![],errors=document[_0x165a16(0x1b1)](_0x165a16(0x181));if(isValid)for(let elem of errors){elem[_0x165a16(0x187)][_0x165a16(0x197)]('errorInput');}function _0x2eca(){const _0x54366d=['\x0a\x20\x20\x20\x20\x20\x20\x20\x20📧Email:\x20','fName','phone','lName','\x0a\x20\x20\x20\x20\x20\x20\x20\x20You\x20have\x20successfully\x20placed\x20an\x20order!\x0a\x20\x20\x20\x20\x20\x20\x20\x20Thank\x20you!\x0a\x20\x20\x20\x20\x20\x20\x20\x20Your\x20order\x20total:\x20','#total\x20span','#shopItems\x20section\x20a','#featured\x20p','#cartList\x20li','cat','target','addEventListener','darkModeError','contactSubmit','innerHTML','random','appendChild','length','querySelectorAll','parentNode','comments','darkModeBody','#game\x20section\x20.guessed','Medium\x20length\x20red\x20beaded\x20hoops,\x20made\x20to\x20look\x20like\x20blood\x20dripping.','subtotal','#game\x20section\x20p:nth-child(3)','#cart','prefMethod','log','form\x20fieldset','<a\x20id=\x27remove\x27>Remove\x20item</a>','Please\x20enter\x20a\x20valid\x20number','img/redHoop.png','6eoGQnZ','😀!\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Here\x20is\x20the\x20information\x20that\x20you\x20sucessfully\x20submitted:\x0a\x20\x20\x20\x20\x20\x20\x20\x20☎️Phone\x20number:\x20','error','total','Pink\x20Porcupine\x20Earrings<span>$25</span>','16fxZyWy','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20Thank\x20you,\x20and\x20we\x20will\x20get\x20back\x20to\x20you\x20in\x201-3\x20business\x20days!','bluePorcupine','450942LPNjFK','checked','removeChild','preventDefault','email','<span>Black\x20Cat\x20Earrings</span>No\x20bad\x20luck\x20here!\x20These\x20black\x20cat\x20earrings\x20are\x20purrr-fect\x20for\x20next\x20Halloween!','firstName','turquoiseHoop','5357884vPXbGQ','floor','blueBeaded','textContent','getElementById','Dark\x20Mode','#lightMode\x20img','previousElementSibling','#lightMode\x20span','items','hiddenResponse','purpleCross','6010296evpvac','querySelector','6492kkwOdR','#remove','trim','img/cat.png','<span>Ghost\x20Earrings</span>These\x20purple\x20and\x20white\x20ghost\x20earrings\x20have\x20been\x20hand-beaded\x20and\x20are\x20sure\x20to\x20give\x20a\x20\x27boo\x27!','17919XiOCKl','darkModeCart','#game\x20section\x20p:last-of-type','10OFFWIN','470792prFRac','createElement','enter','2548980OZSjXW','checkout','#shop','body','phoneNum','Purple\x20beaded\x20cross\x20earrings,\x20long\x20in\x20length.','img/ghost.png','pinkPorcupine','value','src','toggle','#featured\x20img','darkModeFeatured','Blue\x20Porcupine\x20Earrings<span>$25</span>','Webbed\x20Hoops<span>$35</span>','Please\x20add\x20something\x20to\x20your\x20cart','forEach','alt','1930iDQeYI','#game\x20section\x20h3','\x0a\x20\x20\x20\x20\x20\x20\x20\x20Prefered\x20Method\x20of\x20Contact:\x20','push','.errorInput','15455vwJbLt','webbedHoops','toFixed','darkModeContact','White\x20earrings\x20with\x20the\x20backside\x20of\x20a\x20black\x20cat','classList','promoCode','#cartList','red','click','<span>Purple\x20Cross\x20Earrings</span>Due\x20to\x20popular\x20demand\x20-\x20these\x20cross\x20earrings\x20will\x20be\x20back\x20in\x20stock\x20soon.\x20We\x20also\x20offer\x20these\x20in\x20green!','Red\x20Earrings<span>$30</span>','redEarrings','#game\x20section','#subTotal\x20span','ghost','errorInput','You\x20win!','<span>Blood\x20Red\x20Hoops</span>These\x20hand-made\x20red\x20earrings\x20are\x20sure\x20to\x20catch\x20an\x20eye\x20at\x20your\x20next\x20party!','.errorMessage','2uSBPMM','remove','applyPromo','greenCross','prefPhone','submitGuess','lightMode','add','exec'];_0x2eca=function(){return _0x54366d;};return _0x2eca();}function submitForm(_0x40eda7){const _0x3e24a1=_0x165a16;_0x40eda7[_0x3e24a1(0x1cb)]();let _0x802ce1=document[_0x3e24a1(0x15e)]('#contact\x20form'),_0x562b2b,_0x5446fb,_0x10ed47,_0x267ae2,_0x324725,_0x5bb22c,_0x5d659e,_0x5a271f=document['getElementById'](_0x3e24a1(0x1a0)),_0x3615d2=document[_0x3e24a1(0x155)](_0x3e24a1(0x1a2)),_0x5e5046=document[_0x3e24a1(0x1b1)](_0x3e24a1(0x195)),_0x431c1f=document[_0x3e24a1(0x155)](_0x3e24a1(0x1cc)),_0x4fca95=document['getElementById'](_0x3e24a1(0x1a1)),_0x52f023=document[_0x3e24a1(0x155)](_0x3e24a1(0x19a)),_0x20e1a9=document[_0x3e24a1(0x155)]('prefEmail'),_0x4fb176=document['querySelector'](_0x3e24a1(0x1bc)),_0x49bb75=document[_0x3e24a1(0x155)](_0x3e24a1(0x1b3)),_0x3d716d=document['getElementById']('contactReason'),_0x5f2d06=/[a-z]+/i,_0x46d9a8=/\w+@\w+.com/i,_0x5ee72a=/[0-9]/;_0x5a271f[_0x3e24a1(0x173)]===''||!_0x5f2d06[_0x3e24a1(0x19e)](_0x5a271f[_0x3e24a1(0x173)])?(_0x5a271f[_0x3e24a1(0x187)][_0x3e24a1(0x19d)]('errorInput'),_0x5e5046[0x0][_0x3e24a1(0x187)]['add'](_0x3e24a1(0x1c2)),_0x562b2b=![]):(_0x5a271f['classList'][_0x3e24a1(0x197)](_0x3e24a1(0x192)),_0x5e5046[0x0][_0x3e24a1(0x187)]['remove'](_0x3e24a1(0x1c2)),_0x562b2b=!![]),_0x3615d2[_0x3e24a1(0x173)]===''||!_0x5f2d06['exec'](_0x3615d2[_0x3e24a1(0x173)])?(_0x3615d2[_0x3e24a1(0x187)][_0x3e24a1(0x19d)](_0x3e24a1(0x192)),_0x5e5046[0x1]['classList'][_0x3e24a1(0x19d)]('error'),_0x5446fb=![]):(_0x3615d2['classList'][_0x3e24a1(0x197)](_0x3e24a1(0x192)),_0x5e5046[0x1][_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x1c2)),_0x5446fb=!![]),_0x20e1a9[_0x3e24a1(0x1c9)]?!_0x46d9a8[_0x3e24a1(0x19e)](_0x431c1f[_0x3e24a1(0x173)])||_0x431c1f[_0x3e24a1(0x173)]==''?(console[_0x3e24a1(0x1bb)](_0x3e24a1(0x16a)),_0x431c1f[_0x3e24a1(0x187)][_0x3e24a1(0x19d)]('errorInput'),_0x5e5046[0x2]['classList'][_0x3e24a1(0x19d)](_0x3e24a1(0x1c2)),_0x267ae2=![]):(_0x431c1f[_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x192)),_0x5e5046[0x2][_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x1c2)),_0x267ae2=!![]):(_0x431c1f['classList']['remove'](_0x3e24a1(0x192)),_0x5e5046[0x2][_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x1c2)),_0x267ae2=!![]),_0x52f023[_0x3e24a1(0x1c9)]?!_0x5ee72a[_0x3e24a1(0x19e)](_0x4fca95[_0x3e24a1(0x173)])||_0x4fca95[_0x3e24a1(0x173)][_0x3e24a1(0x1b0)]==0x0?(_0x4fca95[_0x3e24a1(0x187)]['add'](_0x3e24a1(0x192)),_0x5e5046[0x3]['classList'][_0x3e24a1(0x19d)]('error'),_0x10ed47=![]):(_0x4fca95['classList']['remove'](_0x3e24a1(0x192)),_0x5e5046[0x3]['classList'][_0x3e24a1(0x197)]('error'),_0x10ed47=!![]):(_0x4fca95['classList'][_0x3e24a1(0x197)](_0x3e24a1(0x192)),_0x5e5046[0x3][_0x3e24a1(0x187)][_0x3e24a1(0x197)]('error'),_0x10ed47=!![]),!_0x52f023[_0x3e24a1(0x1c9)]&&!_0x20e1a9[_0x3e24a1(0x1c9)]?(_0x4fb176['classList'][_0x3e24a1(0x19d)]('errorInput'),_0x5e5046[0x5][_0x3e24a1(0x187)][_0x3e24a1(0x19d)]('error'),_0x5bb22c=![]):(_0x4fb176[_0x3e24a1(0x187)]['remove']('errorInput'),_0x5e5046[0x5][_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x1c2)),_0x5bb22c=!![]),_0x3d716d['value']===''?(_0x3d716d[_0x3e24a1(0x187)][_0x3e24a1(0x19d)]('errorInput'),_0x5e5046[0x4]['classList'][_0x3e24a1(0x19d)]('error'),_0x324725=![]):(_0x3d716d[_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x192)),_0x5e5046[0x4][_0x3e24a1(0x187)]['remove'](_0x3e24a1(0x1c2)),_0x324725=!![]),_0x49bb75['value']===''?(_0x49bb75[_0x3e24a1(0x187)][_0x3e24a1(0x19d)](_0x3e24a1(0x192)),_0x5e5046[0x6][_0x3e24a1(0x187)][_0x3e24a1(0x19d)](_0x3e24a1(0x1c2)),_0x5d659e=![]):(_0x49bb75[_0x3e24a1(0x187)][_0x3e24a1(0x197)](_0x3e24a1(0x192)),_0x5e5046[0x6]['classList'][_0x3e24a1(0x197)]('error'),_0x5d659e=!![]),_0x562b2b&&_0x324725&&_0x5bb22c&&_0x10ed47&&_0x5446fb&&_0x267ae2&&_0x324725&&_0x5d659e&&(customer[_0x3e24a1(0x1ce)]=_0x5a271f[_0x3e24a1(0x173)],customer['lastName']=_0x3615d2['value'],customer[_0x3e24a1(0x1cc)]=_0x431c1f['value'],customer['phoneNum']=_0x4fca95[_0x3e24a1(0x173)],customer[_0x3e24a1(0x1b3)]=_0x49bb75[_0x3e24a1(0x173)],customer['reason']=_0x3d716d[_0x3e24a1(0x173)],_0x52f023[_0x3e24a1(0x1c9)]?customer[_0x3e24a1(0x1ba)]='phone':customer[_0x3e24a1(0x1ba)]=_0x3e24a1(0x1cc),_0x802ce1['reset'](),alert('\x0a\x20\x20\x20\x20\x20\x20\x20\x20Hello\x20'+customer[_0x3e24a1(0x1ce)]+'\x20'+customer['lastName']+_0x3e24a1(0x1c1)+customer[_0x3e24a1(0x16f)]+_0x3e24a1(0x19f)+customer[_0x3e24a1(0x1cc)]+_0x3e24a1(0x17f)+customer[_0x3e24a1(0x1ba)]+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20Your\x20comments\x20were:\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+customer[_0x3e24a1(0x1b3)]+_0x3e24a1(0x1c6)));}function _0x2f57(_0x713bb7,_0x4951f6){const _0x2ecad0=_0x2eca();return _0x2f57=function(_0x2f57a8,_0x5434f9){_0x2f57a8=_0x2f57a8-0x155;let _0x1c150a=_0x2ecad0[_0x2f57a8];return _0x1c150a;},_0x2f57(_0x713bb7,_0x4951f6);}function lightMode(){const _0x46fb57=_0x165a16;let _0x249569=document[_0x46fb57(0x15e)](_0x46fb57(0x159)),_0x28b255=document['querySelector'](_0x46fb57(0x157)),_0x414f21=document[_0x46fb57(0x15e)]('#contact'),_0x2a858f=document[_0x46fb57(0x15e)]('#featured'),_0x5a5155=document[_0x46fb57(0x15e)]('#game'),_0x2f2aec=document[_0x46fb57(0x15e)](_0x46fb57(0x16d)),_0x5bd49c=document[_0x46fb57(0x1b1)]('#contact\x20form\x20.errorMessage'),_0x2a0786=document['querySelector'](_0x46fb57(0x16e)),_0x5c0119=document[_0x46fb57(0x15e)](_0x46fb57(0x1b9)),_0xa9c19f=document['querySelector']('#remove');_0x249569['textContent']===_0x46fb57(0x156)?(_0x28b255[_0x46fb57(0x174)]='img/sun.png',_0x249569[_0x46fb57(0x1d3)]='Light\x20Mode'):(_0x28b255[_0x46fb57(0x174)]='img/moon.png',_0x249569['textContent']=_0x46fb57(0x156));_0x5a5155[_0x46fb57(0x187)][_0x46fb57(0x175)](_0x46fb57(0x177)),_0x2a858f[_0x46fb57(0x187)]['toggle'](_0x46fb57(0x177)),_0x2f2aec['classList'][_0x46fb57(0x175)](_0x46fb57(0x185)),_0x414f21[_0x46fb57(0x187)][_0x46fb57(0x175)](_0x46fb57(0x185));for(let _0x161301 of _0x5bd49c){_0x161301[_0x46fb57(0x187)][_0x46fb57(0x175)](_0x46fb57(0x1ab));}_0x2a0786[_0x46fb57(0x187)][_0x46fb57(0x175)](_0x46fb57(0x1b4)),_0x5c0119[_0x46fb57(0x187)]['toggle'](_0x46fb57(0x165));}document[_0x165a16(0x155)](_0x165a16(0x19b))['addEventListener'](_0x165a16(0x18b),guessNumber),document[_0x165a16(0x155)](_0x165a16(0x15c))[_0x165a16(0x1aa)]('click',changePhoto),document[_0x165a16(0x155)](_0x165a16(0x1a8))[_0x165a16(0x1aa)](_0x165a16(0x18b),changePhoto),document['getElementById'](_0x165a16(0x191))[_0x165a16(0x1aa)](_0x165a16(0x18b),changePhoto),document[_0x165a16(0x155)](_0x165a16(0x18a))[_0x165a16(0x1aa)](_0x165a16(0x18b),changePhoto);let shoppingButton=document[_0x165a16(0x1b1)](_0x165a16(0x1a5));shoppingButton['forEach'](function(_0xbc9b79){_0xbc9b79['addEventListener']('click',addToCart);}),document[_0x165a16(0x155)](_0x165a16(0x198))[_0x165a16(0x1aa)]('click',applyPromo),document[_0x165a16(0x155)](_0x165a16(0x16c))['addEventListener']('click',checkout),document[_0x165a16(0x155)](_0x165a16(0x1ac))['addEventListener']('click',submitForm),document[_0x165a16(0x155)](_0x165a16(0x19c))['addEventListener'](_0x165a16(0x18b),lightMode);
+'use strict';
+// global object for cart
+let customerCart = {
+    items: [],
+    subtotal: 0,
+};
+
+//global object for customer
+let customer = {};
+
+function changePhoto(e){
+    //select the featured img
+    let imgSrc = document.querySelector("#featured img");
+
+    //select the featured description
+    let paragraph = document.querySelector("#featured p");
+
+    //gather the event target id
+    let id = e.target.id;
+
+    //conditional logic based on ID of target element
+    if(id === "ghost") {
+        paragraph.innerHTML = "<span>Ghost Earrings</span>These purple and white ghost earrings have been hand-beaded and are sure to give a 'boo'!";
+        imgSrc.src = "img/ghost.png";
+        imgSrc.alt = "Purple and white ghost earrings that say 'boo!'";
+    } else if(id === "red") {
+        paragraph.innerHTML = "<span>Blood Red Hoops</span>These hand-made red earrings are sure to catch an eye at your next party!";
+        imgSrc.src = "img/redHoop.png";
+        imgSrc.alt = "Medium length red beaded hoops, made to look like blood dripping.";
+    } else if(id === "cat") {
+        paragraph.innerHTML = "<span>Black Cat Earrings</span>No bad luck here! These black cat earrings are purrr-fect for next Halloween!";
+        imgSrc.src = "img/cat.png";
+        imgSrc.alt = "White earrings with the backside of a black cat";
+    } else {
+        paragraph.innerHTML = "<span>Purple Cross Earrings</span>Due to popular demand - these cross earrings will be back in stock soon. We also offer these in green!";
+        imgSrc.src = "img/purpleCross.png";
+        imgSrc.alt = "Purple beaded cross earrings, long in length.";
+    }
+}
+
+// a function to play the guess number game
+function guessNumber(e){
+    e.preventDefault();
+
+    // generate random number 1 - 10;
+    let randomNum = Math.floor(Math.random() * 10 + 1);
+
+    //get random number from submitted value
+    let guessedValue = document.querySelector("#game #numGuess");
+
+    //get section for message
+    let messageSection = document.querySelector("#game section");
+
+    //get header of message
+    let messageHeader = document.querySelector("#game section h3");
+
+    //get span of their number and ours
+    let message2Span = document.querySelector("#game section .guessed");
+    let ourNum = document.querySelector(".randomNum");
+
+
+
+    //get "try again message"
+    let tryAgain = document.querySelector("#game section p:last-of-type");
+
+    // get "your number" p
+    let yourNum = document.querySelector("#game section p:nth-child(3)");
+
+    let submit = document.querySelector("#submitGuess");
+
+    // Check if the input is a match
+    if(guessedValue.value <= 10 && guessedValue.value >= 1){
+        // if the value is within range then check if the number matches
+        if(Number(guessedValue.value) === randomNum) {
+            guessedValue.classList.remove("error");
+            yourNum.innerHTML = "Enter this code for 10% off!";
+            //change h3 to winner
+            messageHeader.innerHTML = "You win!";
+            //give code
+            tryAgain.innerHTML = "10OFFWIN";
+            //remove the hidden class
+            messageSection.classList.remove("hiddenResponse");
+        } else {
+            guessedValue.classList.remove("error");
+            //change span
+            //for their number
+            message2Span.innerHTML = guessedValue.value;
+            //our number
+            ourNum.innerHTML = randomNum;
+            //remove hidden element
+            messageSection.classList.remove("hiddenResponse");
+        }
+        // if the value is NOT in range, alert and add error class
+    } else {
+        // change the input to invalid
+        // alert the user
+        guessedValue.classList.add("error");
+        alert("Please enter a valid number");
+    }
+
+}
+
+// a function to add to cart
+function addToCart(e){
+    //gather button id
+    let shopItem = e.target.id;
+
+    //get ul id
+    let cartList = document.querySelector("#cartList");
+
+    //create li node for item
+    let liNode = document.createElement('li');
+
+    // create li node for remove button
+    let liRemove = document.createElement('li');
+
+    //add class/conditional logic
+    if(shopItem === "blueBeaded") {
+        //add item to object
+        customerCart.items.push([shopItem, 30]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=30;
+        liNode.innerHTML = "Blue Beaded Earrings<span>$30</span>";
+        liNode.classList.add("blueBeaded");
+    } else if (shopItem === "bluePorcupine") {
+        //add item to object
+        customerCart.items.push([shopItem, 25]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=25;
+        liNode.innerHTML = "Blue Porcupine Earrings<span>$25</span>";
+    } else if (shopItem === "webbedHoops") {
+        //add item to object
+        customerCart.items.push([shopItem, 35]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=35;
+        liNode.innerHTML = "Webbed Hoops<span>$35</span>";
+    } else if (shopItem === "greenCross") {
+        //add item to object
+        customerCart.items.push([shopItem, 25]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=25;
+        liNode.innerHTML = "Green Cross<span>$25</span>";
+    } else if (shopItem === "turquoiseHoop") {
+        //add item to object
+        customerCart.items.push([shopItem, 35]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=35;
+        liNode.innerHTML = "Turquoise Hoops<span>$35</span>";
+    } else if (shopItem === "pinkPorcupine") {
+        //add item to object
+        customerCart.items.push([shopItem, 25]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=25;
+        liNode.innerHTML = "Pink Porcupine Earrings<span>$25</span>";
+    } else if (shopItem === "redEarrings") {
+        //add item to object
+        customerCart.items.push([shopItem, 30]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=30;
+        liNode.innerHTML = "Red Earrings<span>$30</span>";
+    } else {
+        //add item to object
+        customerCart.items.push([shopItem, 20]);
+        liNode.classList.add(shopItem);
+        cartList.appendChild(liNode);
+        cartList.appendChild(liRemove);
+        liRemove.innerHTML = "<a id='remove'>Remove item</a>";
+        //add the cost to the cart
+        customerCart.subtotal+=20;
+        liNode.innerHTML = "Beaded Hoops<span>$20</span>";
+    }
+
+    // get the total with shipping included
+    getTotal(customerCart.subtotal);
+
+    // add event listener for the remove button, I added the event listener in the add to cart, since the id does not exist until the addToCart function is called
+    let removeButton = document.querySelectorAll("#remove");
+    removeButton.forEach(function(item) {
+        item.addEventListener("click", removeItem)
+    });
+}
+
+// a function to get the total
+function getTotal(subTotal) {
+    // get subtotal element
+    let sub = document.querySelector("#subTotal span");
+
+    //make subtotal a num
+    parseInt(subTotal);
+
+    //change the subtotal
+    sub.textContent = `$${subTotal}`;
+
+    //get total id
+    let totalElement = document.querySelector("#total span");
+
+    //change the total
+    let total = "$" + ((subTotal + (subTotal *.08)) + 5).toFixed(2);
+
+    //set customer total in object and in HTML
+    let cartTotal = customerCart.subtotal;
+    if(cartTotal === 0) {
+        totalElement.textContent = "$" + (((subTotal + (subTotal *.08))).toFixed(2));
+    } else {
+        totalElement.textContent = total;
+    }
+    customerCart.total = total;
+}
+
+//a function to remove the items from the cart
+function removeItem(e){
+    //to get the selected element, I have to get the previoud li sibling due to the nature of the remove button being a li element as well
+    let targetElm = e.target.parentNode.previousElementSibling;
+    let targetLi = e.target;
+
+    //get the class of the target elm
+    let targetElmClass = targetElm.classList.value;
+
+    // //remove both of the li elements
+    targetLi.parentNode.removeChild(targetLi);
+    targetElm.parentNode.removeChild(targetElm);
+
+    //subtract cost of the item to the customerCart object
+    if(targetElmClass === "blueBeaded") {
+        customerCart.subtotal-=30;
+    } else if (targetElmClass === "bluePorcupine") {
+        customerCart.subtotal-=25;
+    } else if (targetElmClass === "webbedHoops") {
+        customerCart.subtotal-=35;
+    } else if (targetElmClass === "greenCross") {
+        customerCart.subtotal-=25;
+    } else if (targetElmClass === "pinkPorcupine") {
+        customerCart.subtotal-=25;
+    } else if (targetElmClass === "redEarrings") {
+        customerCart.subtotal-=30;
+    }  else if (targetElmClass === "turquoiseHoop") {
+        customerCart.subtotal-=35;
+    } else {
+        customerCart.subtotal-=20;
+    }
+    // get the total
+    getTotal(customerCart.subtotal);
+}
+
+//a function to apply the promo code
+function applyPromo(e){
+    e.preventDefault();
+    //get the promo code element value
+    let promoCode = document.getElementById("promoCode").value.trim();
+
+    // if the promocode matches, apply
+    if(promoCode === "10OFFWIN" || promoCode === "10offwin"){
+        getTotal(customerCart.subtotal * .90);
+    }
+}
+
+//function to control the checkout process
+function checkout(e){
+    e.preventDefault();
+    //get the cart total from object before changing it to 0
+    let cartTotal = customerCart.total;
+
+    //get the cart checkout element
+    let cart = document.querySelectorAll("#cartList li");
+
+    //check to make sure that the cart is not empty, if it is empty, alert the customer to add something to the cart
+    if(customerCart.subtotal === 0) {
+        alert("Please add something to your cart");
+
+    } else {
+        // if it is not empty, iterate throught the items of the cart, and remove all of the list items from the cart
+        for(let item of cart) {
+            item.parentNode.removeChild(item);
+        }
+        // set the subtotal to 0
+        customerCart.subtotal = 0;
+        // get the total and alert the customer that they submitted!
+        getTotal(customerCart.subtotal);
+        alert(`
+        You have successfully placed an order!
+        Thank you!
+        Your order total: ${cartTotal}`);
+    }
+
+}
+
+// track validity
+let isValid = true;
+//clear error classes
+let errors = document.querySelectorAll(".errorInput");
+if(isValid) {
+    for(let elem of errors){
+        elem.classList.remove("errorInput");
+    }
+}
+
+//function to validate values in form before submitting
+function submitForm(e){
+    e.preventDefault();
+
+    //get form
+    let form = document.querySelector("#contact form");
+
+    //set variables for validity
+    let isValidfName, isValidlName, validPhone, validEmail, validReason, validContact, validComments;
+
+    //get firstName
+    let firstName = document.getElementById("fName");
+
+    //get lastName
+    let lastName = document.getElementById("lName");
+
+    //get error spans
+    let errorSpans = document.querySelectorAll(".errorMessage");
+
+    //get email
+    let email = document.getElementById("email");
+
+    //get phone
+    let phone = document.getElementById("phone");
+
+    //get checked
+    let phoneCheck = document.getElementById("prefPhone");
+    let emailCheck = document.getElementById("prefEmail");
+
+    // get fieldset
+    let fieldset = document.querySelector("form fieldset");
+
+    //get comments
+    let comments = document.getElementById("comments");
+
+    //get select value
+    let reason = document.getElementById("contactReason");
+
+    //regex
+    let reName = /[a-z]+/i;
+    // I could add .edu, but for this project I aimed my emails towards the type of customers I would have
+    let reEmail = /\w+@\w+.com/i;
+    let rePhone = /[0-9]/;
+
+    // first name
+    if(firstName.value === "" || !reName.exec(firstName.value)) {
+        firstName.classList.add("errorInput");
+        errorSpans[0].classList.add("error");
+        isValidfName = false;   
+    } else {
+        firstName.classList.remove("errorInput");
+        errorSpans[0].classList.remove("error");
+        isValidfName = true;  
+    }
+
+    //last name
+    if(lastName.value === "" || !reName.exec(lastName.value)) {
+        lastName.classList.add("errorInput");
+        errorSpans[1].classList.add("error");
+        isValidlName = false;
+    } else {
+        lastName.classList.remove("errorInput");
+        errorSpans[1].classList.remove("error");
+        isValidlName = true;
+    }
+
+    //email
+    //if the email is checked
+    //require the email to be regex and not be empty or else add an error
+    if(emailCheck.checked) {
+        if(!reEmail.exec(email.value) || email.value == "") {
+            console.log("enter");
+            email.classList.add("errorInput");
+            errorSpans[2].classList.add("error");
+            validEmail = false;
+        } else {
+            email.classList.remove("errorInput");
+            errorSpans[2].classList.remove("error");
+            validEmail = true;
+        }
+    } else {
+        email.classList.remove("errorInput");
+        errorSpans[2].classList.remove("error");
+        validEmail = true;
+    }
+
+
+    //phone
+    //if the phone is checked
+    //require the phone to not be empty and pass regex
+    if(phoneCheck.checked) {
+        if(!rePhone.exec(phone.value) || phone.value.length == 0) {
+            phone.classList.add("errorInput");
+            errorSpans[3].classList.add("error");
+            validPhone = false;
+        } else {
+            phone.classList.remove("errorInput");
+            errorSpans[3].classList.remove("error");
+            validPhone = true;
+        }
+    } else {
+        phone.classList.remove("errorInput");
+        errorSpans[3].classList.remove("error");
+        validPhone = true;
+    }
+
+    //prefered method of contact
+    if(!phoneCheck.checked && !emailCheck.checked){
+        fieldset.classList.add("errorInput");
+        errorSpans[5].classList.add("error");
+        validContact = false;
+    } else {
+        fieldset.classList.remove("errorInput");
+        errorSpans[5].classList.remove("error");
+        validContact = true;
+    }
+
+    //reason for contact
+    if(reason.value === "") {
+        reason.classList.add("errorInput");
+        errorSpans[4].classList.add("error");
+        validReason = false;
+    } else {
+        reason.classList.remove("errorInput");
+        errorSpans[4].classList.remove("error");
+        validReason = true;
+    }
+
+    //comments
+    if(comments.value === "") {
+        comments.classList.add("errorInput");
+        errorSpans[6].classList.add("error");
+        validComments = false;
+    } else {
+        comments.classList.remove("errorInput");
+        errorSpans[6].classList.remove("error");
+        validComments = true;
+    }
+    
+    //if all values are valid, add all customer information to object, reset form, and alert the customer that they have submitted the form
+    if(isValidfName && validReason && validContact && validPhone && isValidlName && validEmail && validReason &&validComments) {
+        customer.firstName = firstName.value;
+        customer.lastName = lastName.value;
+        customer.email = email.value;
+        customer.phoneNum = phone.value;
+        customer.comments = comments.value;
+        customer.reason = reason.value;
+        if(phoneCheck.checked) {
+            customer.prefMethod = "phone";
+        } else {
+            customer.prefMethod = "email";
+        }
+        form.reset();
+
+        alert(`
+        Hello ${customer.firstName} ${customer.lastName}😀!
+        
+        Here is the information that you sucessfully submitted:
+        ☎️Phone number: ${customer.phoneNum}
+        📧Email: ${customer.email}
+        Prefered Method of Contact: ${customer.prefMethod}
+        Your comments were: 
+        ${customer.comments}
+
+        Thank you, and we will get back to you in 1-3 business days!`);
+    }
+
+}
+
+// functin for changing css rules for light/dark mode
+function lightMode() {
+    //get span with mode
+    let mode = document.querySelector("#lightMode span");
+
+    // get the image tag
+    let imgTag = document.querySelector("#lightMode img");
+
+    // get the elements that need to be toggled for darkmode
+    let contact = document.querySelector("#contact");
+    let featured = document.querySelector("#featured");
+    let game = document.querySelector("#game");
+    let shop = document.querySelector("#shop");
+    let errors = document.querySelectorAll("#contact form .errorMessage");
+    let body = document.querySelector("body");
+    let cart = document.querySelector("#cart");
+    let cartListRemove = document.querySelector("#remove");
+
+    // conditional logic to change innerText and img src
+    if(mode.textContent === "Dark Mode") {
+        imgTag.src = "img/sun.png";
+        mode.textContent = "Light Mode";
+    } else {
+        imgTag.src = "img/moon.png";
+        mode.textContent = "Dark Mode";
+    }
+
+    //toggle featured and game
+    game.classList.toggle("darkModeFeatured");
+    featured.classList.toggle("darkModeFeatured");
+
+    //toggle contact and shop
+    shop.classList.toggle("darkModeContact");
+    contact.classList.toggle("darkModeContact");
+
+    //toggle error color
+    for(let error of errors) {
+        error.classList.toggle("darkModeError");
+    }
+
+    //toggle body color
+    body.classList.toggle("darkModeBody");
+
+    //toggle cart color
+    cart.classList.toggle("darkModeCart");
+}
+
+//*****************************//
+// Event Listeners
+//*****************************//
+
+//for guess Number
+document.getElementById("submitGuess").addEventListener("click", guessNumber);
+
+//for change Photo
+document.getElementById("purpleCross").addEventListener("click", changePhoto);
+document.getElementById("cat").addEventListener("click", changePhoto);
+document.getElementById("ghost").addEventListener("click", changePhoto);
+document.getElementById("red").addEventListener("click", changePhoto);
+
+//for add to shopping cart
+//get array of all of the buttons
+let shoppingButton = document.querySelectorAll("#shopItems section a");
+
+// itereate through all of the buttons and add event listeners
+shoppingButton.forEach(function(item) {
+    item.addEventListener("click", addToCart);
+});
+
+//for promocode
+document.getElementById("applyPromo").addEventListener("click", applyPromo);
+
+//for checkout
+document.getElementById("checkout").addEventListener("click", checkout);
+
+//for submit
+document.getElementById("contactSubmit").addEventListener("click", submitForm);
+
+//for dark mode
+document.getElementById("lightMode").addEventListener("click", lightMode);
